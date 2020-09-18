@@ -1,5 +1,66 @@
-$color : red;
+$homeBgColor : #113357;
+$viewHeight : 100vh;
 
-body {
-    background-color: $color;
+.home {
+    background-color: $homeBgColor;
+    height: $viewHeight;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeBtn {
+    text-decoration: none;
+}
+
+.allteamscomponent {
+    background-color: $homeBgColor;
+    height: $viewHeight;
+
+    section.addBtn {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.teamscomponent {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+
+    p {
+        margin-top: 50px;
+        width: 30%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
+
+//update / delete componenet styles
+div.updateDeleteComponent {
+    background-color: $homeBgColor;
+    height: $viewHeight;
+
+    div.updateDeleteBtns {
+        height: $viewHeight / 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sectionGoTeams {
+        height: $viewHeight / 5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .goToTeamBtn {
+        }
+    }
 }
