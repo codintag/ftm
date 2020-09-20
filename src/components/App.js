@@ -7,10 +7,13 @@ import {
     Switch,
     Route
 } from 'react-router-dom';
+// all my component above
 
+// App functional component
 function App() {
   return (
     <div className="App">
+      {/* Define all routes here*/}
       <Router>
         <Switch>
           <Route exact path={'/'} component={Home} />
@@ -22,5 +25,5 @@ function App() {
     </div>
   );
 }
-
+// export App component
 export default App;

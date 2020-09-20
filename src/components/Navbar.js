@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import FtmLogo from '../images/logo.gif';
 import {
     Link
 } from "react-router-dom";
@@ -8,7 +9,7 @@ class Navbar extends Component {
         return (
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-info">
-                    <Link className="navbar-brand" to="/">FTM</Link>
+                    <Link className="navbar-brand" to="/"><img className="imgLogo" src={FtmLogo} alt="logo"></img></Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
