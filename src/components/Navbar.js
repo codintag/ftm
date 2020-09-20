@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 
 class Navbar extends Component {
+    // en gros ma navbar en functional compo c'est mieux.
     render() {
         return (
             <div>
@@ -35,4 +36,5 @@ class Navbar extends Component {
     }
 }
 
+//export my component
 export default Navbar;
